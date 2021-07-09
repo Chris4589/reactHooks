@@ -14,7 +14,9 @@ import { Callback } from "./components/useCallback/Callback";
 //import { Memorize } from "./components/useMemo/Memorize";
 //import { MemorizeHook } from "./components/useMemo/MemorizeHook";
 //import './components/useReducer/IntroReducer';
-import { TodoApp } from './components/useReducer/TodoApp';
+//import { TodoApp } from './components/useReducer/TodoApp';
+
+
 function App() {
   return (
     <>
@@ -31,7 +33,7 @@ function App() {
       {/* <MemorizeHook/> */}
       {/*  <Callback/> */}
       {/* <Padre/> */}
-      <TodoApp/>
+      {/* <TodoApp/> */}
     </>
   );
 }
